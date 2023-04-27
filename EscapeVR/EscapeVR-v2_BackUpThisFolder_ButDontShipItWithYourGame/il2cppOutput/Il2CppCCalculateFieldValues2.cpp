@@ -4570,36 +4570,36 @@ struct U3CU3Ec_t78C0429771F7B26F13E74C5B47C692A2CF2FECD7  : public RuntimeObject
 {
 };
 
-// WSconnect/<>c__DisplayClass15_0
-struct U3CU3Ec__DisplayClass15_0_tF1DDDA0A9595D0571DFAD9E8CBBDE2B8BB083520  : public RuntimeObject
+// WSconnect/<>c__DisplayClass17_0
+struct U3CU3Ec__DisplayClass17_0_t8793174BDAF72B6DDAFEBA71C506631CB38B03FB  : public RuntimeObject
 {
-	// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> WSconnect/<>c__DisplayClass15_0::tcs
+	// System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> WSconnect/<>c__DisplayClass17_0::tcs
 	TaskCompletionSource_1_t486CD8AD64929E5C47B9FE9AD7AE2CB00B5BAB14* ___tcs_0;
 };
 
-// WSconnect/<SendPositionData>d__14
-struct U3CSendPositionDataU3Ed__14_t3253DFDDF15569C0E85C3AEBABCE38459E6E1D8B  : public RuntimeObject
+// WSconnect/<SendPositionData>d__16
+struct U3CSendPositionDataU3Ed__16_t5965232FB0B135516434EC676DFB1FCA5C9E42AA  : public RuntimeObject
 {
-	// System.Int32 WSconnect/<SendPositionData>d__14::<>1__state
+	// System.Int32 WSconnect/<SendPositionData>d__16::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object WSconnect/<SendPositionData>d__14::<>2__current
+	// System.Object WSconnect/<SendPositionData>d__16::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// WSconnect WSconnect/<SendPositionData>d__14::<>4__this
+	// WSconnect WSconnect/<SendPositionData>d__16::<>4__this
 	WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3* ___U3CU3E4__this_2;
-	// UnityEngine.WaitForSeconds WSconnect/<SendPositionData>d__14::<waitForInterval>5__2
+	// UnityEngine.WaitForSeconds WSconnect/<SendPositionData>d__16::<waitForInterval>5__2
 	WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* ___U3CwaitForIntervalU3E5__2_3;
 };
 
-// WSconnect/<SendWSMessageAndWait>d__15
-struct U3CSendWSMessageAndWaitU3Ed__15_t14001F0E4F70E3C1E1219E91DF6D9BF34622488F  : public RuntimeObject
+// WSconnect/<SendWSMessageAndWait>d__17
+struct U3CSendWSMessageAndWaitU3Ed__17_t4BBF5E03BA1A9250147043CAD478F05CAB056A37  : public RuntimeObject
 {
-	// System.Int32 WSconnect/<SendWSMessageAndWait>d__15::<>1__state
+	// System.Int32 WSconnect/<SendWSMessageAndWait>d__17::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object WSconnect/<SendWSMessageAndWait>d__15::<>2__current
+	// System.Object WSconnect/<SendWSMessageAndWait>d__17::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// WSconnect WSconnect/<SendWSMessageAndWait>d__15::<>4__this
+	// WSconnect WSconnect/<SendWSMessageAndWait>d__17::<>4__this
 	WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3* ___U3CU3E4__this_2;
-	// System.String WSconnect/<SendWSMessageAndWait>d__15::message
+	// System.String WSconnect/<SendWSMessageAndWait>d__17::message
 	String_t* ___message_3;
 };
 
@@ -12205,18 +12205,18 @@ struct U3CConnectU3Ed__6_tA18435C3AF2D4A05C0B6A4A6554B7CC94ACF4F51
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
 };
 
-// WSconnect/<SendAudioMessage>d__21
-struct U3CSendAudioMessageU3Ed__21_tCC70B137C4A3AAC2A220AB893F223033299EAA30 
+// WSconnect/<SendAudioMessage>d__25
+struct U3CSendAudioMessageU3Ed__25_tEC67EC3A9E6542CA1FC184CDE976F899B7A627EA 
 {
-	// System.Int32 WSconnect/<SendAudioMessage>d__21::<>1__state
+	// System.Int32 WSconnect/<SendAudioMessage>d__25::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder WSconnect/<SendAudioMessage>d__21::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder WSconnect/<SendAudioMessage>d__25::<>t__builder
 	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// AudioMessage WSconnect/<SendAudioMessage>d__21::message
+	// AudioMessage WSconnect/<SendAudioMessage>d__25::message
 	AudioMessage_t57E6F3CABA8B9B1D54C51BC8B2F2EDF12F56D72C* ___message_2;
-	// WSconnect WSconnect/<SendAudioMessage>d__21::<>4__this
+	// WSconnect WSconnect/<SendAudioMessage>d__25::<>4__this
 	WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3* ___U3CU3E4__this_3;
-	// System.Runtime.CompilerServices.TaskAwaiter WSconnect/<SendAudioMessage>d__21::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter WSconnect/<SendAudioMessage>d__25::<>u__1
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
 };
 
@@ -16638,20 +16638,24 @@ struct WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3  : public MonoBehavio
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___player2_7;
 	// Player WSconnect::player2pos
 	Player_tF98BD09D3495D2FF1922E5D34866AEAC6AE2DF74* ___player2pos_8;
+	// Oculus.Interaction.AudioTrigger WSconnect::correctSound
+	AudioTrigger_tE3900678F595B46529F138D167A5D082A404BED8* ___correctSound_9;
+	// Oculus.Interaction.AudioTrigger WSconnect::incorrectSound
+	AudioTrigger_tE3900678F595B46529F138D167A5D082A404BED8* ___incorrectSound_10;
 	// System.Collections.Generic.List`1<UnityEngine.Camera> WSconnect::Cameras
-	List_1_tD2FA3273746E404D72561E8324608D18B52B533E* ___Cameras_9;
+	List_1_tD2FA3273746E404D72561E8324608D18B52B533E* ___Cameras_11;
 	// WSclient WSconnect::ws
-	WSclient_t78F9761DED32A8F1966C18199BA1EFA41CD8DE68* ___ws_10;
+	WSclient_t78F9761DED32A8F1966C18199BA1EFA41CD8DE68* ___ws_12;
 	// System.String WSconnect::IP
-	String_t* ___IP_11;
+	String_t* ___IP_13;
 	// System.Int32 WSconnect::PORT
-	int32_t ___PORT_12;
+	int32_t ___PORT_14;
 	// System.Collections.Generic.Dictionary`2<System.String,Player> WSconnect::players
-	Dictionary_2_t0D0630725DF262A6E08CFEB80A105F36200A46DA* ___players_13;
+	Dictionary_2_t0D0630725DF262A6E08CFEB80A105F36200A46DA* ___players_15;
 	// System.String WSconnect::player_id
-	String_t* ___player_id_14;
+	String_t* ___player_id_16;
 	// System.Boolean WSconnect::role
-	bool ___role_15;
+	bool ___role_17;
 };
 
 // TMPro.Examples.WarpTextExample
@@ -20210,17 +20214,17 @@ struct U3CU3Ec_t78C0429771F7B26F13E74C5B47C692A2CF2FECD7_StaticFields
 
 // Meta.WitAi.Utilities.VoiceServiceReference/<>c
 
-// WSconnect/<>c__DisplayClass15_0
+// WSconnect/<>c__DisplayClass17_0
 
-// WSconnect/<>c__DisplayClass15_0
+// WSconnect/<>c__DisplayClass17_0
 
-// WSconnect/<SendPositionData>d__14
+// WSconnect/<SendPositionData>d__16
 
-// WSconnect/<SendPositionData>d__14
+// WSconnect/<SendPositionData>d__16
 
-// WSconnect/<SendWSMessageAndWait>d__15
+// WSconnect/<SendWSMessageAndWait>d__17
 
-// WSconnect/<SendWSMessageAndWait>d__15
+// WSconnect/<SendWSMessageAndWait>d__17
 
 // WSconnect/ServerMessage
 
@@ -22135,9 +22139,9 @@ struct Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_StaticFields
 
 // WSclient/<Connect>d__6
 
-// WSconnect/<SendAudioMessage>d__21
+// WSconnect/<SendAudioMessage>d__25
 
-// WSconnect/<SendAudioMessage>d__21
+// WSconnect/<SendAudioMessage>d__25
 
 // Oculus.Interaction.Demo.WaterSpray/<StampRoutine>d__35
 
@@ -23861,19 +23865,19 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6051[6] =
 	static_cast<int32_t>(offsetof(ServerMessage_t23142D2B49EC865E8D6A24989CF998BD111736D3, ___action_0)),static_cast<int32_t>(offsetof(ServerMessage_t23142D2B49EC865E8D6A24989CF998BD111736D3, ___role_1)),static_cast<int32_t>(offsetof(ServerMessage_t23142D2B49EC865E8D6A24989CF998BD111736D3, ___id_2)),static_cast<int32_t>(offsetof(ServerMessage_t23142D2B49EC865E8D6A24989CF998BD111736D3, ___lHand_3)),static_cast<int32_t>(offsetof(ServerMessage_t23142D2B49EC865E8D6A24989CF998BD111736D3, ___rHand_4)),static_cast<int32_t>(offsetof(ServerMessage_t23142D2B49EC865E8D6A24989CF998BD111736D3, ___head_5)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6052[4] = 
 {
-	static_cast<int32_t>(offsetof(U3CSendPositionDataU3Ed__14_t3253DFDDF15569C0E85C3AEBABCE38459E6E1D8B, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CSendPositionDataU3Ed__14_t3253DFDDF15569C0E85C3AEBABCE38459E6E1D8B, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CSendPositionDataU3Ed__14_t3253DFDDF15569C0E85C3AEBABCE38459E6E1D8B, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CSendPositionDataU3Ed__14_t3253DFDDF15569C0E85C3AEBABCE38459E6E1D8B, ___U3CwaitForIntervalU3E5__2_3)),};
+	static_cast<int32_t>(offsetof(U3CSendPositionDataU3Ed__16_t5965232FB0B135516434EC676DFB1FCA5C9E42AA, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CSendPositionDataU3Ed__16_t5965232FB0B135516434EC676DFB1FCA5C9E42AA, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CSendPositionDataU3Ed__16_t5965232FB0B135516434EC676DFB1FCA5C9E42AA, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CSendPositionDataU3Ed__16_t5965232FB0B135516434EC676DFB1FCA5C9E42AA, ___U3CwaitForIntervalU3E5__2_3)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6053[1] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass15_0_tF1DDDA0A9595D0571DFAD9E8CBBDE2B8BB083520, ___tcs_0)),};
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass17_0_t8793174BDAF72B6DDAFEBA71C506631CB38B03FB, ___tcs_0)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6054[4] = 
 {
-	static_cast<int32_t>(offsetof(U3CSendWSMessageAndWaitU3Ed__15_t14001F0E4F70E3C1E1219E91DF6D9BF34622488F, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CSendWSMessageAndWaitU3Ed__15_t14001F0E4F70E3C1E1219E91DF6D9BF34622488F, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CSendWSMessageAndWaitU3Ed__15_t14001F0E4F70E3C1E1219E91DF6D9BF34622488F, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CSendWSMessageAndWaitU3Ed__15_t14001F0E4F70E3C1E1219E91DF6D9BF34622488F, ___message_3)),};
+	static_cast<int32_t>(offsetof(U3CSendWSMessageAndWaitU3Ed__17_t4BBF5E03BA1A9250147043CAD478F05CAB056A37, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CSendWSMessageAndWaitU3Ed__17_t4BBF5E03BA1A9250147043CAD478F05CAB056A37, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CSendWSMessageAndWaitU3Ed__17_t4BBF5E03BA1A9250147043CAD478F05CAB056A37, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CSendWSMessageAndWaitU3Ed__17_t4BBF5E03BA1A9250147043CAD478F05CAB056A37, ___message_3)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6055[5] = 
 {
-	static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__21_tCC70B137C4A3AAC2A220AB893F223033299EAA30, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__21_tCC70B137C4A3AAC2A220AB893F223033299EAA30, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__21_tCC70B137C4A3AAC2A220AB893F223033299EAA30, ___message_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__21_tCC70B137C4A3AAC2A220AB893F223033299EAA30, ___U3CU3E4__this_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__21_tCC70B137C4A3AAC2A220AB893F223033299EAA30, ___U3CU3Eu__1_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6056[12] = 
+	static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__25_tEC67EC3A9E6542CA1FC184CDE976F899B7A627EA, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__25_tEC67EC3A9E6542CA1FC184CDE976F899B7A627EA, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__25_tEC67EC3A9E6542CA1FC184CDE976F899B7A627EA, ___message_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__25_tEC67EC3A9E6542CA1FC184CDE976F899B7A627EA, ___U3CU3E4__this_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CSendAudioMessageU3Ed__25_tEC67EC3A9E6542CA1FC184CDE976F899B7A627EA, ___U3CU3Eu__1_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6056[14] = 
 {
-	static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___head_4)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___lHand_5)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___rHand_6)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___player2_7)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___player2pos_8)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___Cameras_9)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___ws_10)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___IP_11)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___PORT_12)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___players_13)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___player_id_14)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___role_15)),};
+	static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___head_4)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___lHand_5)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___rHand_6)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___player2_7)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___player2pos_8)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___correctSound_9)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___incorrectSound_10)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___Cameras_11)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___ws_12)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___IP_13)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___PORT_14)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___players_15)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___player_id_16)),static_cast<int32_t>(offsetof(WSconnect_t068EE42568A456C77F42FDFB4198798B9BA172C3, ___role_17)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6057[3] = 
 {
 	static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatInputField_4)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatDisplayOutput_5)),static_cast<int32_t>(offsetof(ChatController_t21BE953E1D5ADF0BA9F3B03C205203CADDC64C15, ___ChatScrollbar_6)),};

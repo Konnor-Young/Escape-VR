@@ -18,7 +18,7 @@ public class WSconnect : MonoBehaviour
     public List<Camera> Cameras;
     public WSclient ws;
 
-    private string IP = "192.168.0.84";
+    private string IP = "Your IP Address";
     private int PORT = 15009;
 
     private Dictionary<string, Player> players = new Dictionary<string, Player>();
